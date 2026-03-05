@@ -1,0 +1,48 @@
+#score {
+  text-align: center;
+}
+
+#game {
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url("https://i.redd.it/0kisv9czzec81.jpg");
+  background-size: cover;
+}
+
+#peely {
+  height: 75px;
+  width: 75px;
+  top: 225px;
+  position: relative;
+  background-image: url("https://art.pixilart.com/a45efa5d64028f7.png");
+  background-size: cover;
+}
+
+#biggie {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+  background-image: url("https://freepngimg.com/save/88066-art-symbol-royale-fortnite-battle-pixel/1184x1184");
+  background-size: cover;
+  animation: biggie 1.33s infinite;
+}
+
+@keyframes biggie {
+  0% { left: 550px; }
+  100% { left: -50px; }
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+
+@keyframes jump {
+  0% { top: 225px; }
+  50% { top: 75px; }
+  75% { top: 75px; }
+  100% { top: 225px; }
+}
