@@ -8,12 +8,21 @@
 </head>
 <body>
 
+  <h1 id="score">0</h1>
+
   <div id="game">
+    <!-- 4 Hintergrund-Divs: normal, gespiegelt, normal, gespiegelt -->
+    <div id="bg">
+      <div class="bg-slice normal"></div>
+      <div class="bg-slice mirror"></div>
+      <div class="bg-slice normal"></div>
+      <div class="bg-slice mirror"></div>
+    </div>
     <div id="peely"></div>
     <div id="biggie"></div>
   </div>
 
-  <h1 id="score">0</h1>
+  <button id="start-btn">Start</button>
 
   <script src="script.js"></script>
 </body>
